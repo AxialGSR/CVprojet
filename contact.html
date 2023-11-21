@@ -3,12 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="asset/CSS/style.css" rel="stylesheet">
+    <link href="/asset/CSS/style.css" rel="stylesheet">
     <title>Contact</title>
 </head>
 <body>
     <header>
-        <div>
+        <div >
         <h2> Gilles SEYER</h2>
         <address>3 impasse de la Tribetrie, 18290 PLOU (france)</address>
             <h3>PROFIL</h3>
@@ -17,46 +17,55 @@
             <li> En recherche de stage pour une reconversion professionnelle pour le monde du délloppement internet</li>
         </ul>
         </div>
-        <div>
-            <img class="image" src="asset/image/identité.jpg" alt="Photo identité"/>
+        <div class="image">
+            <img src="asset/image/identité.jpg" alt="Photo identité"/>
         </div>
     </header>
     <main>
-        <div class="formulaire"></div>
-        <form action="#" method="post" class="formulaire">
-            <div class="form">
+        <div class="formulaire">
+        <form action="#" method="get" class="formulaire">
+            
+                <br>
                 <label for="nom">Entrez votre Nom</label>
+                <br>
                 <input type="text" name="nom" id="nom" required>
-            </div>
-            <div class="formu">
+           
+           
                 <label for="prenom">Entrez votre Prénom</label>
-                <input type="text" name="Prenom" id="Prenom" required>
-            </div>
-            <div class="formu">
+                <br>
+                <input type="text" name="prenom" id="prenom" required>
+            
+        
                 <label for="email">Entrez votre Email</label>
+                <br>
                 <input type="email" name="email" id="email" required>
-            </div>
-            <div class="formu">
-                <label for="telephone">Entrez votre Téléphone</label>
+            
+            
+                <label for="tel">Entrez votre Téléphone</label>
+                <br>
                 <input type="tel" name="tel" id="tel" required>
-            </div>
-            <div Class="sujet">
+        
+            
                 <label for="sujet">Titre du sujet abordé</label>
+                <br>
                 <input type="text" name="sujet" id="sujet">
                 <h4>votre message</h4>
-                <textarea type="text" name="message" id="message"></textarea>
+                <textarea name="message" id="message"></textarea>
                 <br>
                 <button type="button" class="button">Envoyé</button>
-            </div>
+                <br>
+            
      </form>
     </div>
     </main>
     <footer>
         <div>
             <h3>Les liens utiles</h3>
-            <li><a href="https://www.linkedin.com/in/seyer-gilles-6ba93151">Mon Profil Linkedin</a></li>
-            <li><a href="Contact.html">Page pour me contacter</a></li> 
-            <li><a href="index.html">Retour</a></li>   
+            <a href="https://www.linkedin.com/in/seyer-gilles-6ba93151">Mon Profil Linkedin</a>
+            <br>
+            <a href="Contact.html">Page pour me contacter</a> 
+            <br>
+            <a href="index.html">Retour</a>  
         </div>
     </footer>
     

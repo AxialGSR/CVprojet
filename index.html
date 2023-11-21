@@ -3,12 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="asset/CSS/style.css" rel="stylesheet">
+    <link href="/asset/CSS/style.css" rel="stylesheet">
     <title>CV</title>
 </head>
 <body>
     <header>
-        <div>
+        <div class="profil">
         <h2> Gilles SEYER</h2>
         <address>3 impasse de la Tribetrie, 18290 PLOU (France)</address>
             <h3>PROFIL</h3>
@@ -17,15 +17,15 @@
             <li> En recherche de stage pour une reconversion professionnelle pour le monde du délloppement internet</li>
         </ul>
         </div>
-        <div>
-            <img class="image" src="asset/image/identite.jpg" alt="Photo identité"/>
+        <div class="image" >
+            <img src="asset/image/identite.jpg" alt="Photo identité"/>
         </div>
     </header>
     <Main>
         <div class="main">
-        <section class="Formation">
+        <div class="Formation">
                 <article>
-                    <h3>Formation</h3>
+                    <h3>Formations</h3>
                     <br>
                     <h4>1999 CNAM (Cours du soir) Aix en Provence (13)</h4> 
                     <p>valeur réseau demi valeur programmation système 
@@ -41,8 +41,8 @@
                     <p>BAC F3 – Electrotechnique
                         </p>
                 </article>
-         </section>        
-        <section class="Connaissances">
+            </div>        
+        <div class="Connaissances">
                 <article>
                     <h3>Connaissances Logiciels et Matériels</h3>
                     <br>
@@ -64,8 +64,8 @@
                     <p>Calculateurs CDN12, Sentinel 500, Compteur massique MICROMOTION CMF200,  CMF300, Compteur Turbine FaureHermann, Daniel, Mesure de débit Ultrasonique PANAMETRICS.
                         </p>
                 </article>
-        </section>
-        <section class="experiences">
+            </div>
+        <div class="experiences">
             <article>
                 <h3>EXPERIENCES</h3>
                 <br>
@@ -102,25 +102,28 @@
                 <p>Technicien en Instrumentation/Technicien de Bureau d’étude</p>
                 <h5>Automatisme pour les centrales nucléaire </h5>
             </article>
-        </section>
-        <section class="competences">
+        </div>
+        <div class="competences">
             <article>
-                <h3>COMPETENCES</h3>
+                <h3>COMPETENCES PROFESSIONNELLES</h3>
                 <br>
-                <p>
-                    Maintenance Technique secteur de l'énergie (Pétrochimique, nucléaire) et Production (automobile, armement).
-                    Supervision de travaux pour des travaux neufs ou d'améliorations. Dessinateur Projeteur Courant faible.
-                </p>
+                <ul>
+                    <li>Maintenance Technique secteur de l'énergie (Pétrochimique, nucléaire) et Production (automobile, armement).</li>
+                    <li>Supervision de travaux pour des travaux neufs ou d'améliorations.</li>
+                    <li> Dessinateur Projeteur Courant faible.</li>
+                </ul>
             </article>
-        </section>   
+        </div>   
         </div>                  
     </Main>
     <footer>
         <div>
             <h3>Les liens utiles</h3>
-            <li><a href="https://www.linkedin.com/in/seyer-gilles-6ba93151">Mon Profil Linkedin</a></li>
-            <li><a href="Contact.html">Page pour me contacter</a></li> 
-            <li><a href="index.html">Retour</a></li>   
+            <a href="https://www.linkedin.com/in/seyer-gilles-6ba93151">Mon Profil Linkedin</a>
+            <br>
+            <a href="Contact.html">Page pour me contacter</a> 
+            <br>
+            <a href="index.html">Retour</a>   
         </div>
     </footer>
 </body>
