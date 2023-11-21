@@ -1,0 +1,16 @@
+
+.formulaire {
+    margin: 0;
+    padding: 0;
+    display:flex;
+}
+.main {
+    display:grid;
+    grid-template-columns: (1/4,1fr);
+    grid-template-rows: (1/4, 1fr); 
+}
+header {
+    position:sticky;
+    width: 100%;
+    height:15%;
+}
